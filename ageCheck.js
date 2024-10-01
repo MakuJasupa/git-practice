@@ -1,13 +1,16 @@
 //Age Checker
 
+// Check if the user is a child, teenager, or an adult
 const readline = require('readline');
 
+// Create a readline interface
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-rl.question('Please enter your age: ', (answer) => {
+// Asks the user for their age
+rl.question('Enter your age: ', (answer) => {
   let age = parseInt(answer);
 
   if (age < 13) {
@@ -17,8 +20,9 @@ rl.question('Please enter your age: ', (answer) => {
   } else if (age >= 20) {
     console.log("You are an adult.");
   } else {
-    console.log("Invalid age.");
+    console.log("Invalid age. (Tip: Use numbers only.)");
   }
 
+  // Close the readline interface
   rl.close();
 });
