@@ -28,3 +28,5 @@ rl.question('Enter your score: ', (answer) => {
   // Close the readline interface
   rl.close();
 });
+
+// Reference: https://nodejs.org/api/readline.html
