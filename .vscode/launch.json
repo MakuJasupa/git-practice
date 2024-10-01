@@ -11,7 +11,8 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\lq1_GACUTAN.js"
+            "program": "${workspaceFolder}\\lq1_GACUTAN.js",
+            "console": "integratedTerminal",
         }
     ]
 }
