@@ -1,11 +1,11 @@
 // Simple Queueing System for Customer Service
 
-let customerQueue = [];
+let customerQueue = ["Elaine", "Althea", "Angelo", "Lito", "Engelbert"];
 
 // Function to add customer to queue
 function addCustomer() {
   let name = prompt("Enter customer name: ");
-  customerQueue.push(" " + name);
+  customerQueue.push(name);
   console.log(`Customer added: ${name} (Number: ${customerQueue.length})`);
 }
 
@@ -24,7 +24,7 @@ function serviceCustomer() {
 }
 
 // Add 5 customers to queue
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 1; i++) {
   addCustomer();
 }
 
