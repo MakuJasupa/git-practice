@@ -13,7 +13,7 @@ while (secondCounter < maxLimit) {
   firstCounter = 0;
   while (firstCounter < maxLimit) {
     addedValue = secondCounter + firstCounter;
-    console.log(`[${secondCounter}] [${firstCounter}] Added value is ${addedValue}`);
+    console.log(`[${secondCounter}] [${firstCounter}] Added value is ${addedValue}`); // Display the loop points and added value
     firstCounter++;
   }
   secondCounter++;

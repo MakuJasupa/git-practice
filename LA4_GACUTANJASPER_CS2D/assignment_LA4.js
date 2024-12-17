@@ -23,7 +23,7 @@ function serviceCustomer() {
   }
 }
 
-// Add 5 customers to queue
+// Add 1 customer to queue
 for (let i = 0; i < 1; i++) {
   addCustomer();
 }
